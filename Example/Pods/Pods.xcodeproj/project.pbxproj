@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04ACE79A23C0CBB900EA1299 /* ValidTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE79923C0CBB900EA1299 /* ValidTextField.swift */; };
+		04ACE79B23C0CBB900EA1299 /* ValidTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE79923C0CBB900EA1299 /* ValidTextField.swift */; };
+		04ACE79C23C0CBB900EA1299 /* ValidTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE79923C0CBB900EA1299 /* ValidTextField.swift */; };
 		405568E7E30A45B50FDF5C0ECBB32451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5347A5E5D4B3DEDC672FA8D790AAFF37 /* ZValidTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FDCD227435F98C6F9E605C57E3F0A2 /* ZValidTextField-dummy.m */; };
 		5438C08790A54A8782F0F1D2900B1CB9 /* Pods-ZValidTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DD9D6D5CD494855B7C3EDD9DEBDFE /* Pods-ZValidTextField_Example-dummy.m */; };
 		5CE92607AEB31ADBD557340DD2FE929F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6624244BD6F55032E89C4601C45952E2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C51FA2C0B316354FA98848D3A8DFAE /* ReplaceMe.swift */; };
 		A62B7F81D771B76993350A73AF8B3514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D6D1E59DD643B941430E694E505B5665 /* Pods-ZValidTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBA6DAAE9EA111B6FD19472324AC442 /* Pods-ZValidTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2A608A1A53B6173DB46DD1D84EF9AA3 /* Pods-ZValidTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C190B472BBEECE23CCCEA541B2C98B /* Pods-ZValidTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,16 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02B557CC9F9ACDC6CD9C09395099E1CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		08A691347852D19AEA89ED90B9F2F4CB /* Pods_ZValidTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZValidTextField_Tests.framework; path = "Pods-ZValidTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		08DEE883E55095B1089757155A1335B7 /* Pods_ZValidTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZValidTextField_Example.framework; path = "Pods-ZValidTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B557CC9F9ACDC6CD9C09395099E1CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		04ACE79923C0CBB900EA1299 /* ValidTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidTextField.swift; sourceTree = "<group>"; };
+		08A691347852D19AEA89ED90B9F2F4CB /* Pods_ZValidTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZValidTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DEE883E55095B1089757155A1335B7 /* Pods_ZValidTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZValidTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FDCD227435F98C6F9E605C57E3F0A2 /* ZValidTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZValidTextField-dummy.m"; sourceTree = "<group>"; };
 		21C190B472BBEECE23CCCEA541B2C98B /* Pods-ZValidTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZValidTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		23C51FA2C0B316354FA98848D3A8DFAE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZValidTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		24B4BD458EDF1BA70556E057F954648A /* Pods-ZValidTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZValidTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2A3DD9D6D5CD494855B7C3EDD9DEBDFE /* Pods-ZValidTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZValidTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		2B88118DDBC5BC88FB7AAD2770564235 /* ZValidTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZValidTextField.modulemap; sourceTree = "<group>"; };
-		2F6F16C191326A9600FA190856841104 /* ZValidTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZValidTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F6F16C191326A9600FA190856841104 /* ZValidTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZValidTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3CE0D04D681C2BEB4D9AA81955B5B538 /* Pods-ZValidTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZValidTextField_Tests-Info.plist"; sourceTree = "<group>"; };
 		42BF3E41A75D95730A92810A0434BD95 /* Pods-ZValidTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZValidTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -55,7 +57,7 @@
 		5245D150E34E0FC584070AE1711C7F26 /* Pods-ZValidTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZValidTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		5318A82151BEC409234DE873DD60A322 /* Pods-ZValidTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZValidTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		60B00A6AB3BD6D9D99F64512F7265B58 /* Pods-ZValidTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZValidTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63690B5588CFADFF9C715264476E522D /* ZValidTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZValidTextField.framework; path = ZValidTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63690B5588CFADFF9C715264476E522D /* ZValidTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZValidTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		648958119A45F1DE2E646B0B47F6C99A /* ZValidTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZValidTextField-prefix.pch"; sourceTree = "<group>"; };
 		651CF0BE832CB549EA4F4C8645533378 /* Pods-ZValidTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZValidTextField_Example-Info.plist"; sourceTree = "<group>"; };
 		6E252988F0346327CBAB9BFFF353DA81 /* Pods-ZValidTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZValidTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,8 +65,8 @@
 		7E5C081254FED4E767FF77540679770D /* Pods-ZValidTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZValidTextField_Tests.modulemap"; sourceTree = "<group>"; };
 		825350F4EF1E270E8A908E24D135020F /* Pods-ZValidTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZValidTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8E58D034CC38D7C2EC1103A813ECCCFC /* Pods-ZValidTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZValidTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B00742AC4F493833470B04EBF9C34564 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B00742AC4F493833470B04EBF9C34564 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CAADBD3E2BF6A2B773D907B201CDB805 /* ZValidTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZValidTextField.xcconfig; sourceTree = "<group>"; };
 		CCCC08290E39C434BD3B0713595B7147 /* Pods-ZValidTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZValidTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DEBA6DAAE9EA111B6FD19472324AC442 /* Pods-ZValidTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZValidTextField_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04ACE79823C0CB6500EA1299 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04ACE79923C0CBB900EA1299 /* ValidTextField.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		1F047DBE7504A7C0FA9F141AE67ED44E /* Pods-ZValidTextField_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +155,7 @@
 		43024710739BF617F9983C14A8BED071 /* ZValidTextField */ = {
 			isa = PBXGroup;
 			children = (
-				23C51FA2C0B316354FA98848D3A8DFAE /* ReplaceMe.swift */,
+				04ACE79823C0CB6500EA1299 /* Classes */,
 				A0C595946782735D83DED47F15A1F1D8 /* Pod */,
 				DC5727E9C011C77C30D71AADB18295EF /* Support Files */,
 			);
@@ -315,6 +325,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					9FC64E490260270791E0B8C6B6505966 = {
+						LastSwiftMigration = 1130;
+					};
+					D4C499396047138FA43C6354EA198E1E = {
+						LastSwiftMigration = 1130;
+					};
+					E2E80BBFEF26567C77D9B14AE1ECF25D = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ACE79A23C0CBB900EA1299 /* ValidTextField.swift in Sources */,
 				5438C08790A54A8782F0F1D2900B1CB9 /* Pods-ZValidTextField_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ACE79B23C0CBB900EA1299 /* ValidTextField.swift in Sources */,
 				FA50E436B229AC87D922653606431E87 /* Pods-ZValidTextField_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6624244BD6F55032E89C4601C45952E2 /* ReplaceMe.swift in Sources */,
+				04ACE79C23C0CBB900EA1299 /* ValidTextField.swift in Sources */,
 				5347A5E5D4B3DEDC672FA8D790AAFF37 /* ZValidTextField-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAADBD3E2BF6A2B773D907B201CDB805 /* ZValidTextField.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,6 +451,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -439,6 +464,7 @@
 			baseConfigurationReference = 6E252988F0346327CBAB9BFFF353DA81 /* Pods-ZValidTextField_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -461,6 +487,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -472,6 +500,7 @@
 			baseConfigurationReference = CCCC08290E39C434BD3B0713595B7147 /* Pods-ZValidTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -494,6 +523,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -553,8 +584,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -629,6 +659,7 @@
 			baseConfigurationReference = 8E58D034CC38D7C2EC1103A813ECCCFC /* Pods-ZValidTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -651,6 +682,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -662,6 +694,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAADBD3E2BF6A2B773D907B201CDB805 /* ZValidTextField.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -695,6 +728,7 @@
 			baseConfigurationReference = 24B4BD458EDF1BA70556E057F954648A /* Pods-ZValidTextField_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -717,6 +751,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
