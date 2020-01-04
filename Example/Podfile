@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZValidTextField_Example' do
+  pod 'ZValidTextField', :path => '../'
+
+  target 'ZValidTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
