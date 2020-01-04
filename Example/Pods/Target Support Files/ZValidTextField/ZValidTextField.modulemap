@@ -1,0 +1,6 @@
+framework module ZValidTextField {
+  umbrella header "ZValidTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

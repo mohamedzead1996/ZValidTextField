@@ -1,0 +1,16 @@
+PODS:
+  - ZValidTextField (0.1.0)
+
+DEPENDENCIES:
+  - ZValidTextField (from `../`)
+
+EXTERNAL SOURCES:
+  ZValidTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZValidTextField: 8eca59ac12740c2e4e05e364b7fff7b0d2b12cf5
+
+PODFILE CHECKSUM: 0263eb2d0a16674bb8be784c2ab753f6bb740599
+
+COCOAPODS: 1.7.2
